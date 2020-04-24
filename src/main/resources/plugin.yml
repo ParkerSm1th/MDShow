@@ -1,0 +1,19 @@
+name: MDShows
+version: "1.0"
+main: io.parkersmith.swmc.show.Main
+
+commands:
+  repeat:
+    description: Used to repeat commands
+  show:
+    description: Main show command, displays help menu
+  ticks:
+    description: Converts seconds to ticks
+  fountain:
+    description: Creates fountains
+  laser:
+    description: Creates lasers
+
+permissions:
+  swmc.show.use:
+    default: op
